@@ -1,0 +1,27 @@
+{
+  "strict": {
+    "name_min_length": 2,
+    "phone_length": 10,
+    "phone_starts_with": [6, 7, 8, 9],
+    "aadhaar_length": 12
+  },
+  "soft": {
+    "age_min": 18,
+    "age_max": 35,
+    "grad_year_min": 2015,
+    "grad_year_max": 2025,
+    "percentage_min": 60,
+    "cgpa_min": 6.0,
+    "screening_min": 40
+  },
+  "exception": {
+    "min_chars": 30,
+    "keywords": [
+      "approved by",
+      "special case",
+      "documentation pending",
+      "waiver granted"
+    ],
+    "max_exceptions_before_flag": 2
+  }
+}
